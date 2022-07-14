@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+  <menuitem id="kw_lib_main_menu"
+            web_icon="kw_lib,static/description/icon.png"
+            name="Library" sequence="300"/>
+
+  <menuitem id="kw_lib_catalog_menu"
+            parent="kw_lib_main_menu"
+            name="Catalog" sequence="100"/>
+
+  <menuitem id="kw_lib_settings_main_menu"
+            parent="kw_lib_main_menu"
+            name="Settings" sequence="9999"/>
+</odoo>

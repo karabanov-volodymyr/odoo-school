@@ -1,0 +1,3 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access__kw_lib_book__group_user,access__kw_lib_book__group_user,model_kw_lib_book,base.group_user,1,1,1,1
+access__kw_lib_author__group_user,access__kw_lib_author__group_user,model_kw_lib_author,base.group_user,1,1,1,1

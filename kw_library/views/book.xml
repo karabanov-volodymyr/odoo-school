@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+        <record id="kw_lib_book_tree" model="ir.ui.view">
+            <field name="name">kw.lib.book.tree ()</field>
+            <field name="model">kw.lib.book</field>
+            <field name="arch" type="xml">
+                <tree>
+                    <field name="name"/>
+                    <field name="isbn"/>
+                </tree>
+            </field>
+        </record>
+
+        <record id="kw_lib_book_form" model="ir.ui.view">
+            <field name="name">kw.lib.book.form ()</field>
+            <field name="model">kw.lib.book</field>
+            <field name="arch" type="xml">
+                <form>
+                    <header></header>
+                    <sheet>
+                        <group>
+                            <field name="name"/>
+                            <field name="isbn"/>
+                            <field name="author_ids" widget="many2many_tags"/>
+                        </group>
+                    </sheet>
+                </form>
+            </field>
+        </record>
+
+        <record id="kw_lib_book_act_window" model="ir.actions.act_window">
+            <field name="name">Book</field>
+            <field name="type">ir.actions.act_window</field>
+            <field name="res_model">kw.lib.book</field>
+            <field name="view_mode">tree,form</field>
+        </record>
+
+        <menuitem id="kw_lib_book_menu"
+                  action="kw_lib_book_act_window"
+                  parent="kw_lib_catalog_menu"
+                  name="Book" sequence="200"/>
+
+</odoo>
