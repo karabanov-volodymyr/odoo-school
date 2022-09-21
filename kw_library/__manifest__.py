@@ -13,7 +13,7 @@
         'base',
     ],
 
-    'external_dependencies': {'python': [], },
+    'external_dependencies': {'python': ['pyisbn', ], },
 
     'data': [
         'security/ir.model.access.csv',
