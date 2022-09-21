@@ -10,6 +10,7 @@
     'version': '15.0.1.0.0',
 
     'depends': [
+        'base',
     ],
 
     'external_dependencies': {'python': [], },
@@ -22,6 +23,8 @@
         'views/author.xml',
     ],
     'demo': [
+        'demo/author.xml',
+        'demo/book.xml',
     ],
 
     'installable': True,

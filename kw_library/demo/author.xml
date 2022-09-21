@@ -1,0 +1,17 @@
+<odoo>
+    <record id="kw_lib_author_stephen_king" model="kw.lib.author">
+        <field name="name">Stephen King</field>
+    </record>
+    <record id="kw_lib_author_george_martin" model="kw.lib.author">
+        <field name="name">George R. R. Martin</field>
+    </record>
+    <record id="kw_lib_author_lev_grossman" model="kw.lib.author">
+        <field name="name">Lev Grossman</field>
+    </record>
+    <record id="kw_lib_author_isaac_asimov" model="kw.lib.author">
+        <field name="name">Isaac Asimov</field>
+    </record>
+    <record id="kw_lib_author_peter_straub" model="kw.lib.author">
+        <field name="name">Peter Straub</field>
+    </record>
+</odoo>
