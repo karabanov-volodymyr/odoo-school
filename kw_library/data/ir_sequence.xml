@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="ir_sequence_kw_lib_book_instance" model="ir.sequence">
+        <field name="name">Book instance</field>
+        <field name="code">kw.lib.book.instance</field>
+    </record>
+</odoo>

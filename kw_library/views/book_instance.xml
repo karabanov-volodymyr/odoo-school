@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="kw_lib_book_instance_tree" model="ir.ui.view">
+        <field name="name">kw.lib.book.instance.tree (kw_library)</field>
+        <field name="model">kw.lib.book.instance</field>
+        <field name="arch" type="xml">
+            <tree>
+                <field name="code"/>
+                <field name="name"/>
+                <field name="isbn"/>
+                <field name="category_id"/>
+                <field name="author_ids" widget="many2many_tags"/>
+            </tree>
+        </field>
+    </record>
+
+    <record id="kw_lib_book_instance_form" model="ir.ui.view">
+        <field name="name">kw.lib.book.instance.form (kw_library)</field>
+        <field name="model">kw.lib.book.instance</field>
+        <field name="arch" type="xml">
+            <form>
+                <header/>
+                <sheet>
+                    <group>
+                        <field name="code"/>
+                        <field name="book_id"/>
+                        <field name="name" readonly="1"/>
+                        <field name="isbn" readonly="1"/>
+                        <field name="category_id" readonly="1"/>
+                        <field name="author_ids"  readonly="1" widget="many2many_tags"/>
+                    </group>
+                </sheet>
+            </form>
+        </field>
+    </record>
+
+    <record id="kw_lib_book_instance_act_window" model="ir.actions.act_window">
+        <field name="name">Book instance</field>
+        <field name="type">ir.actions.act_window</field>
+        <field name="res_model">kw.lib.book.instance</field>
+        <field name="view_mode">tree,form</field>
+    </record>
+
+    <menuitem id="kw_lib_book_instance_menu"
+              action="kw_lib_book_instance_act_window"
+              parent="kw_lib_catalog_menu"
+              name="Book instance" sequence="100"/>
+
+</odoo>

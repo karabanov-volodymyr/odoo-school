@@ -17,11 +17,13 @@
 
     'data': [
         'security/ir.model.access.csv',
+        'data/ir_sequence.xml',
 
         'views/menu.xml',
         'views/book.xml',
         'views/author.xml',
         'views/category.xml',
+        'views/book_instance.xml',
     ],
     'demo': [
         'demo/author.xml',

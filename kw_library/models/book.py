@@ -35,3 +35,20 @@ class Book(models.Model):
                     raise exceptions.ValidationError(_('ISBN is not valid'))
             except Exception as e:
                 raise exceptions.ValidationError(e)
+
+
+class BookInstance(models.Model):
+    _name = 'kw.lib.book.instance'
+    _description = 'Book instance'
+    _inherits = {'kw.lib.book': 'book_id'}
+
+    book_id = fields.Many2one(
+        comodel_name='kw.lib.book', required=True, )
+    code = fields.Char(
+        copy=False, readonly=True, )
+
+    @api.model
+    def create(self, vals_list):
+        vals_list['code'] = self.env['ir.sequence'].next_by_code(
+            'kw.lib.book.instance')
+        return super().create(vals_list)
