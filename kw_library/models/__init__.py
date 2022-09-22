@@ -1,2 +1,5 @@
-from . import book
-from . import author
+from . import (
+    book,
+    author,
+    category,
+)

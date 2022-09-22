@@ -18,6 +18,8 @@ class Book(models.Model):
         required=True, )
     author_ids = fields.Many2many(
         comodel_name='kw.lib.author', )
+    category_id = fields.Many2one(
+        comodel_name='kw.lib.book.category', )
 
     @api.constrains('author_ids')
     def _constrains_author_ids(self):

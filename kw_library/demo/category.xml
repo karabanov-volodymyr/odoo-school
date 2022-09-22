@@ -1,0 +1,18 @@
+<odoo>
+    <record id="kw_lib_book_category_fantastique" model="kw.lib.book.category">
+        <field name="name">Fantastique</field>
+    </record>
+    <record id="kw_lib_book_category_fantasy" model="kw.lib.book.category">
+        <field name="name">Fantasy</field>
+        <field name="parent_id" eval="ref('kw_library.kw_lib_book_category_fantastique')"/>
+    </record>
+    <record id="kw_lib_book_category_science_fiction" model="kw.lib.book.category">
+        <field name="name">Science fiction</field>
+        <field name="parent_id" eval="ref('kw_library.kw_lib_book_category_fantastique')"/>
+    </record>
+    <record id="kw_lib_book_category_horror_fiction" model="kw.lib.book.category">
+        <field name="name">Horror fiction</field>
+        <field name="parent_id" eval="ref('kw_library.kw_lib_book_category_fantastique')"/>
+    </record>
+
+</odoo>

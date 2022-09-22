@@ -2,92 +2,108 @@
     <record id="kw_lib_book_the_talisman_a_novel" model="kw.lib.book">
         <field name="name">The Talisman: A Novel</field>
         <field name="isbn">9781409103868</field>
+        <field name="category_id" eval="ref('kw_library.kw_lib_book_category_horror_fiction')"/>
         <field name="author_ids" eval="[(4, ref('kw_library.kw_lib_author_stephen_king')),(4, ref('kw_library.kw_lib_author_peter_straub'))]"/>
     </record>
     <record id="kw_lib_book_billy_summers" model="kw.lib.book">
         <field name="name">Billy Summers</field>
         <field name="isbn">9781529365719</field>
+        <field name="category_id" eval="ref('kw_library.kw_lib_book_category_horror_fiction')"/>
         <field name="author_ids" eval="[(4, ref('kw_library.kw_lib_author_stephen_king'))]"/>
     </record>
     <record id="kw_lib_book_the_stand" model="kw.lib.book">
         <field name="name">The Stand</field>
         <field name="isbn">9780307743688</field>
+        <field name="category_id" eval="ref('kw_library.kw_lib_book_category_horror_fiction')"/>
         <field name="author_ids" eval="[(4, ref('kw_library.kw_lib_author_stephen_king'))]"/>
     </record>
 
     <record id="kw_lib_book_a_game_of_thrones" model="kw.lib.book">
         <field name="name">A Game of Thrones</field>
         <field name="isbn">9780553573404</field>
+        <field name="category_id" eval="ref('kw_library.kw_lib_book_category_fantasy')"/>
         <field name="author_ids" eval="[(4, ref('kw_library.kw_lib_author_george_martin'))]"/>
     </record>
     <record id="kw_lib_book_a_clash_of_kings" model="kw.lib.book">
         <field name="name">A Clash of Kings</field>
         <field name="isbn">9780553579901</field>
+        <field name="category_id" eval="ref('kw_library.kw_lib_book_category_fantasy')"/>
         <field name="author_ids" eval="[(4, ref('kw_library.kw_lib_author_george_martin'))]"/>
     </record>
     <record id="kw_lib_book_a_storm_of_swords" model="kw.lib.book">
         <field name="name">A Storm of Swords</field>
         <field name="isbn">9780553106633</field>
+        <field name="category_id" eval="ref('kw_library.kw_lib_book_category_fantasy')"/>
         <field name="author_ids" eval="[(4, ref('kw_library.kw_lib_author_george_martin'))]"/>
     </record>
     <record id="kw_lib_book_a_dance_with_dragons" model="kw.lib.book">
         <field name="name">A Dance with Dragons</field>
         <field name="isbn">9780007455997</field>
+        <field name="category_id" eval="ref('kw_library.kw_lib_book_category_fantasy')"/>
         <field name="author_ids" eval="[(4, ref('kw_library.kw_lib_author_george_martin'))]"/>
     </record>
 
     <record id="kw_lib_book_foundation" model="kw.lib.book">
         <field name="name">Foundation</field>
         <field name="isbn">9780194705387</field>
+        <field name="category_id" eval="ref('kw_library.kw_lib_book_category_science_fiction')"/>
         <field name="author_ids" eval="[(4, ref('kw_library.kw_lib_author_isaac_asimov'))]"/>
     </record>
     <record id="kw_lib_book_foundation_and_empire" model="kw.lib.book">
         <field name="name">Foundation and Empire</field>
         <field name="isbn">9780008117504</field>
+        <field name="category_id" eval="ref('kw_library.kw_lib_book_category_science_fiction')"/>
         <field name="author_ids" eval="[(4, ref('kw_library.kw_lib_author_isaac_asimov'))]"/>
     </record>
     <record id="kw_lib_book_second_foundation" model="kw.lib.book">
         <field name="name">Second Foundation</field>
         <field name="isbn">9780345336293</field>
+        <field name="category_id" eval="ref('kw_library.kw_lib_book_category_science_fiction')"/>
         <field name="author_ids" eval="[(4, ref('kw_library.kw_lib_author_isaac_asimov'))]"/>
     </record>
     <record id="kw_lib_book_foundation_and_earth" model="kw.lib.book">
         <field name="name">Foundation and Earth</field>
         <field name="isbn">9780385237093</field>
+        <field name="category_id" eval="ref('kw_library.kw_lib_book_category_science_fiction')"/>
         <field name="author_ids" eval="[(4, ref('kw_library.kw_lib_author_isaac_asimov'))]"/>
     </record>
 
     <record id="kw_lib_book_ghost_story" model="kw.lib.book">
         <field name="name">Ghost Story</field>
         <field name="isbn">9780965723138</field>
+        <field name="category_id" eval="ref('kw_library.kw_lib_book_category_horror_fiction')"/>
         <field name="author_ids" eval="[(4, ref('kw_library.kw_lib_author_peter_straub'))]"/>
     </record>
     <record id="kw_lib_book_floating_dragon_a_thriller" model="kw.lib.book">
         <field name="name">Floating Dragon: A Thriller</field>
         <field name="isbn">9780425189641</field>
+        <field name="category_id" eval="ref('kw_library.kw_lib_book_category_horror_fiction')"/>
         <field name="author_ids" eval="[(4, ref('kw_library.kw_lib_author_peter_straub'))]"/>
     </record>
     <record id="kw_lib_book_julia" model="kw.lib.book">
         <field name="name">Julia</field>
         <field name="isbn">9780345438652</field>
+        <field name="category_id" eval="ref('kw_library.kw_lib_book_category_horror_fiction')"/>
         <field name="author_ids" eval="[(4, ref('kw_library.kw_lib_author_peter_straub'))]"/>
     </record>
 
     <record id="kw_lib_book_the_magicians" model="kw.lib.book">
         <field name="name">The Magicians</field>
         <field name="isbn">9781529102161</field>
+        <field name="category_id" eval="ref('kw_library.kw_lib_book_category_fantasy')"/>
         <field name="author_ids" eval="[(4, ref('kw_library.kw_lib_author_lev_grossman'))]"/>
     </record>
     <record id="kw_lib_book_the_magician_king" model="kw.lib.book">
         <field name="name">The Magician King</field>
         <field name="isbn">9780452298019</field>
+        <field name="category_id" eval="ref('kw_library.kw_lib_book_category_fantasy')"/>
         <field name="author_ids" eval="[(4, ref('kw_library.kw_lib_author_lev_grossman'))]"/>
     </record>
     <record id="kw_lib_book_the_mgicians_land" model="kw.lib.book">
         <field name="name">The Magician's Land</field>
         <field name="isbn">9780670015672</field>
+        <field name="category_id" eval="ref('kw_library.kw_lib_book_category_fantasy')"/>
         <field name="author_ids" eval="[(4, ref('kw_library.kw_lib_author_lev_grossman'))]"/>
     </record>
-
 
 </odoo>
