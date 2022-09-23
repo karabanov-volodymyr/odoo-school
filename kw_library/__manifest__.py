@@ -29,6 +29,7 @@
         'demo/author.xml',
         'demo/category.xml',
         'demo/book.xml',
+        'demo/book_instance.xml',
     ],
 
     'installable': True,

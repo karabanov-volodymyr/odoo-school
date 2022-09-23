@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="kw_lib_book_instance_the_talisman_a_novel_1" model="kw.lib.book.instance">
+        <field name="book_id" eval="ref('kw_library.kw_lib_book_the_talisman_a_novel')"/>
+    </record>
+    <record id="kw_lib_book_instance_the_talisman_a_novel_2" model="kw.lib.book.instance">
+        <field name="book_id" eval="ref('kw_library.kw_lib_book_the_talisman_a_novel')"/>
+    </record>
+    <record id="kw_lib_book_instance_the_talisman_a_novel_3" model="kw.lib.book.instance">
+        <field name="book_id" eval="ref('kw_library.kw_lib_book_the_talisman_a_novel')"/>
+    </record>
+
+    <record id="kw_lib_book_instance_billy_summers_1" model="kw.lib.book.instance">
+        <field name="book_id" eval="ref('kw_library.kw_lib_book_billy_summers')"/>
+    </record>
+    <record id="kw_lib_book_instance_billy_summers_2" model="kw.lib.book.instance">
+        <field name="book_id" eval="ref('kw_library.kw_lib_book_billy_summers')"/>
+    </record>
+
+    <record id="kw_lib_book_instance_the_stand_1" model="kw.lib.book.instance">
+        <field name="book_id" eval="ref('kw_library.kw_lib_book_the_stand')"/>
+    </record>
+
+    <record id="kw_lib_book_instance_a_game_of_thrones_1" model="kw.lib.book.instance">
+        <field name="book_id" eval="ref('kw_library.kw_lib_book_a_game_of_thrones')"/>
+    </record>
+    <record id="kw_lib_book_instance_a_game_of_thrones_2" model="kw.lib.book.instance">
+        <field name="book_id" eval="ref('kw_library.kw_lib_book_a_game_of_thrones')"/>
+    </record>
+    <record id="kw_lib_book_instance_a_game_of_thrones_3" model="kw.lib.book.instance">
+        <field name="book_id" eval="ref('kw_library.kw_lib_book_a_game_of_thrones')"/>
+    </record>
+    <record id="kw_lib_book_instance_a_game_of_thrones_4" model="kw.lib.book.instance">
+        <field name="book_id" eval="ref('kw_library.kw_lib_book_a_game_of_thrones')"/>
+    </record>
+
+    <record id="kw_lib_book_instance_a_clash_of_kings_1" model="kw.lib.book.instance">
+        <field name="book_id" eval="ref('kw_library.kw_lib_book_a_clash_of_kings')"/>
+    </record>
+    <record id="kw_lib_book_instance_a_clash_of_kings_2" model="kw.lib.book.instance">
+        <field name="book_id" eval="ref('kw_library.kw_lib_book_a_clash_of_kings')"/>
+    </record>
+    <record id="kw_lib_book_instance_a_clash_of_kings_3" model="kw.lib.book.instance">
+        <field name="book_id" eval="ref('kw_library.kw_lib_book_a_clash_of_kings')"/>
+    </record>
+
+    <record id="kw_lib_book_instance_a_storm_of_swords_1" model="kw.lib.book.instance">
+        <field name="book_id" eval="ref('kw_library.kw_lib_book_a_storm_of_swords')"/>
+    </record>
+    <record id="kw_lib_book_instance_a_storm_of_swords_2" model="kw.lib.book.instance">
+        <field name="book_id" eval="ref('kw_library.kw_lib_book_a_storm_of_swords')"/>
+    </record>
+
+    <record id="kw_lib_book_instance_a_dance_with_dragons_1" model="kw.lib.book.instance">
+        <field name="book_id" eval="ref('kw_library.kw_lib_book_a_dance_with_dragons')"/>
+    </record>
+    <record id="kw_lib_book_instance_a_dance_with_dragons_2" model="kw.lib.book.instance">
+        <field name="book_id" eval="ref('kw_library.kw_lib_book_a_dance_with_dragons')"/>
+    </record>
+
+    <record id="kw_lib_book_instance_foundation_1" model="kw.lib.book.instance">
+        <field name="book_id" eval="ref('kw_library.kw_lib_book_foundation')"/>
+    </record>
+
+    <record id="kw_lib_book_instance_foundation_and_empire_1" model="kw.lib.book.instance">
+        <field name="book_id" eval="ref('kw_library.kw_lib_book_foundation_and_empire')"/>
+    </record>
+
+    <record id="kw_lib_book_instance_second_foundation_1" model="kw.lib.book.instance">
+        <field name="book_id" eval="ref('kw_library.kw_lib_book_second_foundation')"/>
+    </record>
+
+    <record id="kw_lib_book_instance_foundation_and_earth_1" model="kw.lib.book.instance">
+        <field name="book_id" eval="ref('kw_library.kw_lib_book_foundation_and_earth')"/>
+    </record>
+
+    <record id="kw_lib_book_instance_ghost_story_1" model="kw.lib.book.instance">
+        <field name="book_id" eval="ref('kw_library.kw_lib_book_ghost_story')"/>
+    </record>
+
+    <record id="kw_lib_book_instance_floating_dragon_a_thriller_1" model="kw.lib.book.instance">
+        <field name="book_id" eval="ref('kw_library.kw_lib_book_floating_dragon_a_thriller')"/>
+    </record>
+
+    <record id="kw_lib_book_instance_julia_1" model="kw.lib.book.instance">
+        <field name="book_id" eval="ref('kw_library.kw_lib_book_julia')"/>
+    </record>
+
+    <record id="kw_lib_book_the_magicians_1" model="kw.lib.book.instance">
+        <field name="book_id" eval="ref('kw_library.kw_lib_book_the_magicians')"/>
+    </record>
+    <record id="kw_lib_book_the_magicians_2" model="kw.lib.book.instance">
+        <field name="book_id" eval="ref('kw_library.kw_lib_book_the_magicians')"/>
+    </record>
+
+    <record id="kw_lib_book_the_magician_king_1" model="kw.lib.book.instance">
+        <field name="book_id" eval="ref('kw_library.kw_lib_book_the_magician_king')"/>
+    </record>
+    <record id="kw_lib_book_the_magician_king_2" model="kw.lib.book.instance">
+        <field name="book_id" eval="ref('kw_library.kw_lib_book_the_magician_king')"/>
+    </record>
+
+    <record id="kw_lib_book_the_mgicians_land_1" model="kw.lib.book.instance">
+        <field name="book_id" eval="ref('kw_library.kw_lib_book_the_mgicians_land')"/>
+    </record>
+</odoo>
