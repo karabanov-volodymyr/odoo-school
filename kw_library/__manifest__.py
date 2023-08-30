@@ -7,9 +7,10 @@
 
     'category': 'Customizations',
     'license': 'OPL-1',
-    'version': '15.0.1.0.0',
+    'version': '15.0.1.0.1',
 
     'depends': [
+        'base',
     ],
 
     'external_dependencies': {'python': [], },
@@ -31,8 +32,5 @@
         'static/description/cover.png',
         'static/description/icon.png',
     ],
-
-    'price': 0,
-    'currency': 'EUR',
 
 }
