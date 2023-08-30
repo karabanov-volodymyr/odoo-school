@@ -22,6 +22,11 @@
                             <field name="name"/>
 
                         </group>
+                        <notebook>
+                            <page string="Description">
+                                <field name="description"/>
+                            </page>
+                        </notebook>
                     </sheet>
                 </form>
             </field>

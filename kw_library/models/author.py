@@ -13,3 +13,4 @@ class Author(models.Model):
 
     active = fields.Boolean(
         default=True, )
+    description = fields.Text()

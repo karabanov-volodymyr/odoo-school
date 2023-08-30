@@ -7,7 +7,7 @@
 
     'category': 'Customizations',
     'license': 'OPL-1',
-    'version': '15.0.1.0.1',
+    'version': '15.0.1.0.2',
 
     'depends': [
         'base',
